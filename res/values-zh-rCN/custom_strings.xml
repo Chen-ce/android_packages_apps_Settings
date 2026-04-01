@@ -56,4 +56,36 @@
     <string name="adj_saturation_title">饱和度</string>
     <string name="adj_intensity_title">强度</string>
     <string name="adj_contrast_title">对比度</string>
+
+    <string name="display_rotation_title">旋转设置</string>
+    <string name="display_rotation_enabled">已启用自动旋转</string>
+    <string name="display_rotation_disabled">已关闭自动旋转</string>
+    <string name="display_rotation_unit">度</string>
+    <string name="display_rotation_category_title">旋转模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
+
+    <string name="doze_enabled_title">息屏显示</string>
+
+    <string name="refresh_rate_title">刷新率</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz（自适应）</string>
+    <string name="refresh_rate_vrr_title">自适应刷新率</string>
+    <string name="refresh_rate_vrr_summary">屏幕静止时自动降低刷新率以节省电量。某些屏幕可能出现闪烁或偏色。</string>
+    <string name="refresh_rate_footer">更高刷新率会带来更顺滑显示，但会增加功耗</string>
+    <string name="keywords_refresh_rate">刷新率, 屏幕, 流畅, 自适应, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+
+    <string name="battery_saver_refresh_rate_title">降低刷新率</string>
+    <string name="battery_saver_refresh_rate_summary">省电模式开启时使用 60 Hz 刷新率以降低功耗</string>
+    <string name="battery_saver_seekbar_title">省电模式默认电量阈值</string>
+
+    <string name="ambient_display_screen_off_udfps_title">息屏指纹</string>
+    <string name="ambient_display_screen_off_udfps_summary">允许在熄屏状态下使用指纹解锁。
+开启后可能会导致误唤醒。</string>
+
+    <string name="display_cutout_force_fullscreen_title">全屏应用</string>
+    <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海区域限制</string>
+
 </resources>
