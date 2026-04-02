@@ -788,6 +788,12 @@
             android:summary="@string/pif_data_summary"
             android:defaultValue=""/>
 
+        <com.android.settings.development.IdentityDataPreference
+            android:key="identity_data_setting"
+            android:title="@string/identity_data_title"
+            android:summary="@string/identity_data_summary"
+            android:defaultValue=""/>
+
     </PreferenceCategory>
 
     <PreferenceCategory

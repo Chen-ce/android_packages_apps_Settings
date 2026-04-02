@@ -333,6 +333,8 @@
     <string name="pif_data_title">Configure PIF JSON</string>
     <string name="pif_data_summary">Configure PIF JSON used to spoof properties for GMS and the Play Store. Tap Delete to revert to dynamic defaults.</string>
 
+    <string name="identity_data_title">Configure identity JSON</string>
+    <string name="identity_data_summary">Configure identity spoof JSON (serial/imei policy). Tap Delete to clear current config.</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
 

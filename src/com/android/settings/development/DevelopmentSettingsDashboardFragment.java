@@ -120,6 +120,7 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
 
     private static final String KEYBOX_DATA_KEY = "keybox_data_setting";
     private static final String PIF_DATA_KEY = "pif_data_setting";
+    private static final String IDENTITY_DATA_KEY = "identity_data_setting";
 
     private boolean mIsAvailable = true;
     private boolean mIsBiometricsAuthenticated;
@@ -129,8 +130,10 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
     private BluetoothA2dp mBluetoothA2dp;
     private ActivityResultLauncher<Intent> mKeyboxFilePickerLauncher;
     private ActivityResultLauncher<Intent> mPifFilePickerLauncher;
+    private ActivityResultLauncher<Intent> mIdentityFilePickerLauncher;
     private KeyboxDataPreference mKeyboxDataPreference;
     private PifDataPreference mPifDataPreference;
+    private IdentityDataPreference mIdentityDataPreference;
 
     private final BroadcastReceiver mEnableAdbReceiver = new BroadcastReceiver() {
         @Override
@@ -308,6 +311,20 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
                 }
             }
         );
+
+
+        mIdentityFilePickerLauncher = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            result -> {
+                if (result.getResultCode() == Activity.RESULT_OK && result.getData() != null) {
+                    Uri uri = result.getData().getData();
+                    Preference pref = findPreference(IDENTITY_DATA_KEY);
+                    if (pref instanceof IdentityDataPreference) {
+                        ((IdentityDataPreference) pref).handleFileSelected(uri);
+                    }
+                }
+            }
+        );
     }
 
     @Override
@@ -316,6 +333,7 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
 
         mKeyboxDataPreference = findPreference(KEYBOX_DATA_KEY);
         mPifDataPreference = findPreference(PIF_DATA_KEY);
+        mIdentityDataPreference = findPreference(IDENTITY_DATA_KEY);
 
         if (mKeyboxDataPreference != null) {
             mKeyboxDataPreference.setFilePickerLauncher(mKeyboxFilePickerLauncher);
@@ -323,6 +341,10 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
 
         if (mPifDataPreference != null) {
             mPifDataPreference.setFilePickerLauncher(mPifFilePickerLauncher);
+        }
+
+        if (mIdentityDataPreference != null) {
+            mIdentityDataPreference.setFilePickerLauncher(mIdentityFilePickerLauncher);
         }
     }
 

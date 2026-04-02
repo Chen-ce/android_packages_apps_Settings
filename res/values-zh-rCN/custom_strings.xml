@@ -88,4 +88,178 @@
     <string name="display_cutout_force_fullscreen_title">全屏应用</string>
     <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海区域限制</string>
 
+    <string name="keyboard_extras_title">附加功能</string>
+    <string name="advanced_keyboard_settings_title">高级设置</string>
+    <string name="adb_enable_root">Root 调试</string>
+    <string name="adb_enable_summary_root">允许以 root 身份运行 Android 调试</string>
+    <string name="status_bar_double_tap_to_sleep_title">轻触息屏</string>
+    <string name="status_bar_double_tap_to_sleep_summary">在状态栏或锁屏界面双击以关闭屏幕</string>
+    <string name="tethering_allow_vpn_upstreams_title">为已连接设备使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">当本设备使用 VPN 时，连接到热点的设备也会使用同一 VPN</string>
+    <string name="unlock_scramble_pin_layout_title">打乱布局</string>
+    <string name="unlock_scramble_pin_layout_summary">解锁时打乱 PIN 数字布局</string>
+    <string name="berry_black_theme_title">纯黑</string>
+    <string name="berry_black_theme_summary">深色主题使用纯黑背景</string>
+    <string name="assisted_gps">使用辅助 GPS</string>
+    <string name="assisted_gps_summary">通过互联网下载卫星辅助数据，可显著提升 GPS 冷启动速度。紧急呼叫时始终允许使用辅助 GPS。</string>
+    <string name="battery_technology">电池技术</string>
+    <string name="battery_health">电池健康</string>
+    <string name="battery_health_good">良好</string>
+    <string name="battery_health_overheat">过热</string>
+    <string name="battery_health_dead">损坏</string>
+    <string name="battery_health_over_voltage">过压</string>
+    <string name="battery_health_unspecified_failure">未知故障</string>
+    <string name="battery_health_cold">过冷</string>
+    <string name="battery_health_unknown">未知</string>
+    <string name="battery_temperature">电池温度</string>
+    <string name="battery_voltage">电池电压</string>
+    <string name="battery_design_capacity">设计容量</string>
+    <string name="battery_maximum_capacity">最大容量</string>
+    <string name="storage_warning_internal">警告：该选项可能无法正常工作，甚至导致数据丢失，因此不建议使用！</string>
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
+    <string name="longpress_to_clipboard">长按可复制</string>
+    <string name="radio_info_title">无线电信息</string>
+    <string name="heads_up_notifications_enabled_title">横幅通知</string>
+    <string name="heads_up_notifications_enabled_summary">将高优先级通知显示为悬浮小窗</string>
+    <string name="high_touch_sensitivity_title">高手套模式</string>
+    <string name="high_touch_sensitivity_summary">提升触摸屏灵敏度，以便戴手套时使用</string>
+    <string name="touchscreen_hovering_title">悬停触控</string>
+    <string name="touchscreen_hovering_summary">允许像鼠标一样在浏览器、远程桌面等场景中悬停操作</string>
+    <string name="high_touch_polling_rate_title">高触控采样率</string>
+    <string name="high_touch_polling_rate_summary">提高触摸屏采样率</string>
+    <string name="charging_control_title">充电控制</string>
+    <string name="charging_control_summary">自定义充电计划和电量上限</string>
+    <string name="charging_control_enable_title">启用充电控制</string>
+    <string name="charging_control_mode_title">充电模式</string>
+    <string name="charging_control_mode_auto_title">自动计划</string>
+    <string name="charging_control_mode_auto_summary">基于已设置闹钟自动判断何时开始充电</string>
+    <string name="charging_control_mode_custom_title">自定义计划</string>
+    <string name="charging_control_mode_custom_summary">设置目标满电时间</string>
+    <string name="charging_control_mode_limit_title">限制充电</string>
+    <string name="charging_control_mode_limit_summary">将充电限制在指定百分比</string>
+    <string name="charging_control_start_time_title">开始时间</string>
+    <string name="charging_control_target_time_title">目标满电时间</string>
+    <string name="charging_control_limit_title">电量上限</string>
+    <string name="reset">重置</string>
+    <string name="lock_settings_picker_pattern_size_message">选择图案大小</string>
+    <string name="lockpattern_settings_enable_error_path_title">显示错误轨迹</string>
+    <string name="lockpattern_settings_enable_dots_title">显示图案圆点</string>
+    <string name="auto_brightness_one_shot_title">一次性自动亮度</string>
+    <string name="auto_brightness_one_shot_summary">仅在屏幕点亮时执行一次亮度自动调节</string>
+    <string name="smart_5g_title">智能 5G</string>
+    <string name="smart_5g_summary">在 5G 与 4G 之间自动切换以降低功耗</string>
+    <string name="lockscreen_enable_power_menu_title">电源菜单</string>
+    <string name="lockscreen_enable_power_menu_summary">在安全锁屏界面允许访问电源菜单</string>
+    <string name="power_button_torch_title">快捷手电筒</string>
+    <string name="power_button_torch_summary">熄屏时长按电源键开启手电筒</string>
+    <string name="volume_button_music_control_title">播放控制</string>
+    <string name="volume_button_music_control_summary">熄屏时长按音量键切换歌曲</string>
+    <string name="prevent_ringing_option_cycle">循环切换模式</string>
+    <string name="prevent_ringing_option_cycle_summary">开启（循环切换模式）</string>
+    <string name="wake_when_plugged_or_unplugged_title">插拔亮屏</string>
+    <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源时点亮屏幕</string>
+    <string name="ignore_window_secure_title">忽略安全窗口标记</string>
+    <string name="ignore_window_secure_summary">移除所有应用的截图和录屏限制。某些场景下更方便，但可能带来隐私泄露风险。</string>
+    <string name="incall_vibration_category">通话振动选项</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">来电等待时振动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
+    <string name="doze_gesture_ambient_title">显示环境屏</string>
+    <string name="doze_gesture_ambient_summary">显示环境屏而不是完全唤醒屏幕</string>
+    <string name="gesture_wake_ambient">显示环境屏</string>
+    <string name="gesture_wake">完全唤醒</string>
+    <string name="doze_enabled_summary">是否启用 Doze（息屏显示）功能</string>
+    <string name="wifi_hotspot_hidden_ssid_title">隐藏网络</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">你的移动热点名称不会出现在可用 Wi-Fi 网络列表中。</string>
+    <string name="wifi_hotspot_client_manager_title">已连接设备</string>
+    <string name="wifi_hotspot_client_manager_summary">查看并管理已连接到热点的设备</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出已连接到热点的设备</string>
+    <string name="wifi_hotspot_client_limit_title">连接设备数量上限</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">已屏蔽设备</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已连接设备</string>
+    <string name="wifi_hotspot_block_client_dialog_title">屏蔽设备</string>
+    <string name="wifi_hotspot_block_client_dialog_text">此操作将断开“<xliff:g id="device_name">%1$s</xliff:g>”与本设备的连接，并将其加入黑名单</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">取消屏蔽设备</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">设备“<xliff:g id="device_name">%1$s</xliff:g>”将可以连接到此热点</string>
+    <string name="wifi_hotspot_client_manager_footer_text">当前没有可用客户端。连接和已屏蔽设备会在可用时显示在这里。</string>
+    <string name="keybox_data_title">配置 keybox XML</string>
+    <string name="keybox_data_summary">配置系统级密钥证明伪装。点击删除可恢复默认值。</string>
+    <string name="pif_data_title">配置 PIF JSON</string>
+    <string name="pif_data_summary">配置用于伪装 GMS 和 Play 商店属性的 PIF JSON。点击删除可恢复为动态默认值。</string>
+
+    <string name="identity_data_title">配置身份 JSON</string>
+    <string name="identity_data_summary">配置身份伪装 JSON（序列号/IMEI 策略）。点击删除可清除当前配置。</string>
+    <string name="screenshot_shutter_sound_title">截图声音</string>
+    <string name="global_actions_advanced_reboot_title">启用高级重启</string>
+    <string name="global_actions_advanced_reboot_summary">在电源菜单中显示恢复模式和引导加载器选项</string>
+    <string name="three_finger_gesture">三指截图</string>
+    <string name="three_finger_gesture_summary">三指下滑即可截图</string>
+    <string name="network_traffic_settings_title">网速监视器</string>
+    <string name="network_traffic_settings_summary">在状态栏显示当前网络速率</string>
+    <string name="network_traffic_mode_title">显示模式</string>
+    <string name="network_traffic_mode_disable">已关闭</string>
+    <string name="network_traffic_mode_up">仅上传</string>
+    <string name="network_traffic_mode_down">仅下载</string>
+    <string name="network_traffic_mode_all">上传与下载</string>
+    <string name="network_traffic_autohide">自动隐藏</string>
+    <string name="network_traffic_autohide_summary">无网络活动时隐藏网速监视器</string>
+    <string name="network_traffic_units_title">流量单位</string>
+    <string name="network_traffic_units_kilobits">千比特每秒 (kb/s)</string>
+    <string name="network_traffic_units_megabits">兆比特每秒 (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">千字节每秒 (kB/s)</string>
+    <string name="network_traffic_units_megabytes">兆字节每秒 (MB/s)</string>
+    <string name="network_traffic_units_auto">自动 (kB/s 或 MB/s)</string>
+    <string name="app_list_search">搜索</string>
+    <string name="app_list_search_apps">搜索应用</string>
+    <string name="app_list_loading">正在加载应用…</string>
+    <string name="clear_search_query_description">清除搜索内容</string>
+    <string name="language_picker_page">语言选择页面</string>
+    <string name="search_region">搜索地区</string>
+    <string name="search_region_page">地区搜索页面</string>
+
+
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_technology_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
+    <string name="battery_temperature_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
+    <string name="battery_voltage_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
+    <string name="battery_design_capacity_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
+    <string name="battery_maximum_capacity_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
+
+    <string name="charging_control_start_time_summary">在 %s 后开始充电时，充电控制将启用</string>
+    <string name="charging_control_target_time_summary">电池将在 %s 前充满</string>
+
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">请找到平板正面的指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">请找到设备正面的指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">请找到手机正面的指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">请找到平板背面的指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">请找到设备背面的指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">请找到手机背面的指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">请找到平板侧边的指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">请找到设备侧边的指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">请找到手机侧边的指纹传感器。</string>
+
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">请触摸平板正面的传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">请触摸设备正面的传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">请触摸手机正面的传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">请触摸平板背面的传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">请触摸设备背面的传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">请触摸手机背面的传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">请触摸平板侧边的传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">请触摸设备侧边的传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">请触摸手机侧边的传感器。</string>
+
+    <string name="lock_pattern_size_3" translatable="false">3 × 3</string>
+    <string name="lock_pattern_size_4" translatable="false">4 × 4</string>
+    <string name="lock_pattern_size_5" translatable="false">5 × 5</string>
+    <string name="lock_pattern_size_6" translatable="false">6 × 6</string>
+
+    <string name="show_dev_countdown_cm">{count, plural,
+      =1      {您还差 # 步即可启用开发者选项。}
+      other   {您还差 # 步即可启用开发者选项。}
+    }</string>
+    <string name="show_dev_on_cm">您已启用开发者选项！</string>
+    <string name="show_dev_already_cm">无需重复操作，您已启用开发者选项。</string>
+
 </resources>

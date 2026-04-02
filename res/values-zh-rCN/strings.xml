@@ -5997,4 +5997,328 @@
     <string name="safety_center_account_security_search_terms" msgid="3950829613581775913"></string>
     <string name="safety_center_device_finder_search_terms" msgid="452013643838126923"></string>
     <string name="safety_center_system_component_update_search_terms" msgid="3110390275537109543"></string>
+
+
+    <!-- Added from values/strings.xml to complete zh-rCN coverage -->
+    <string name="account_confirmation_class" translatable="false"></string>
+
+    <string name="account_confirmation_package" translatable="false"></string>
+    <string name="account_type" translatable="false"></string>
+    <string name="autofill_passwords_count_placeholder" translatable="false">\u2014</string>
+    <string name="battery_saver_seekbar_title"><xliff:g id="percent">%1$s</xliff:g></string>
+
+    <string name="battery_state_and_duration" translatable="false"><xliff:g id="state">%1$s</xliff:g> • <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="bssid_label" translatable="false">BSSID:</string>
+    <string name="change_theme_reboot" translatable="false">更改主题后需要重启。</string>
+
+    <string name="color_custom" translatable="false">#%1$02X%2$02X%3$02X</string>
+    <string name="config_list_label" translatable="false">已保存网络</string>
+
+    <string name="density_pixel_summary" translatable="false"><xliff:g name="count" example="320">\u200E%1$s</xliff:g> dp\u200E</string>
+
+    <string name="disableNetwork" translatable="false">disableNetwork</string>
+    <string name="disconnect" translatable="false">disconnect</string>
+    <string name="double_tap_power_summary" translatable="false"><xliff:g id="double_tap_power_on_off" example="On">%1$s</xliff:g> / <xliff:g id="double_tap_power_actions" example="Access Wallet">%2$s</xliff:g></string>
+    <string name="dsu_is_running" translatable="false">DSU 正在运行</string>
+
+    <string name="dsu_loader_description" translatable="false">加载动态系统更新镜像</string>
+    <string name="dsu_loader_loading" translatable="false">正在加载…</string>
+
+    <string name="dsu_loader_title" translatable="false">DSU 加载器</string>
+    <string name="enableNetwork" translatable="false">enableNetwork</string>
+    <string name="ethernet_dns1_hint" translatable="false">8.8.8.8</string>
+    <string name="ethernet_dns2_hint" translatable="false">8.8.4.4</string>
+    <string name="ethernet_gateway_hint" translatable="false">192.168.1.1</string>
+    <string name="ethernet_ip_address_hint" translatable="false">192.168.1.128</string>
+    <string name="ethernet_network_prefix_length_hint" translatable="false">24</string>
+    <string name="getConfiguredNetworks" translatable="false">getConfiguredNetworks</string>
+    <string name="getConnectionInfo" translatable="false">getConnectionInfo</string>
+    <string name="help_uri_5g_dsds" translatable="false"></string>
+
+    <string name="help_uri_about" translatable="false"></string>
+    <string name="help_uri_about_phone_v2" translatable="false"></string>
+    <string name="help_uri_accessibility" translatable="false"></string>
+    <string name="help_uri_accessibility_vibration" translatable="false"></string>
+    <string name="help_uri_alarms_and_reminders" translatable="false"></string>
+    <string name="help_uri_apps" translatable="false"></string>
+    <string name="help_uri_apps_games" translatable="false"></string>
+    <string name="help_uri_apps_high_power" translatable="false"></string>
+    <string name="help_uri_apps_manage_sources" translatable="false"></string>
+    <string name="help_uri_apps_overlay" translatable="false"></string>
+    <string name="help_uri_apps_storage" translatable="false"></string>
+    <string name="help_uri_apps_wifi_access" translatable="false"></string>
+    <string name="help_uri_apps_write_settings" translatable="false"></string>
+    <string name="help_uri_beam" translatable="false"></string>
+    <string name="help_uri_bluetooth_screen" translatable="false"></string>
+    <string name="help_uri_default" translatable="false"></string>
+    <string name="help_uri_display" translatable="false"></string>
+    <string name="help_uri_interruptions" translatable="false"></string>
+    <string name="help_uri_long_background_tasks" translatable="false"></string>
+    <string name="help_uri_manage_external_storage" translatable="false"></string>
+    <string name="help_uri_media_management_apps" translatable="false"></string>
+    <string name="help_uri_nfc_and_payment_settings" translatable="false"></string>
+    <string name="help_uri_notifications" translatable="false"></string>
+    <string name="help_uri_other_sounds" translatable="false"></string>
+    <string name="help_uri_prevent_ringing_gesture" translatable="false"></string>
+
+    <string name="help_uri_printing" translatable="false"></string>
+    <string name="help_uri_private_dns" translatable="false"></string>
+    <string name="help_uri_process_stats_apps" translatable="false"></string>
+
+    <string name="help_uri_process_stats_summary" translatable="false"></string>
+    <string name="help_uri_restricted_apps" translatable="false"></string>
+
+    <string name="help_uri_sim_combination_warning" translatable="false"></string>
+    <string name="help_uri_smart_battery_settings" translatable="false"></string>
+
+    <string name="help_uri_storage" translatable="false"></string>
+    <string name="help_uri_wallpaper" translatable="false"></string>
+    <string name="help_uri_wifi_calling" translatable="false"></string>
+    <string name="help_uri_wifi_scanning_required" translatable="false"></string>
+    <string name="help_url_accessibility_disability_support" translatable="false"></string>
+
+    <string name="help_url_accessibility_shortcut" translatable="false"></string>
+    <string name="help_url_account_detail" translatable="false"></string>
+    <string name="help_url_accounts" translatable="false"></string>
+    <string name="help_url_action_disabled_by_it_admin" translatable="false"></string>
+    <string name="help_url_action_disabled_by_restricted_settings" translatable="false"></string>
+
+    <string name="help_url_adaptive_sleep" translatable="false" />
+    <!-- Help URL, Previously connected bluetooth devices [DO NOT TRANSLATE] -->
+    <string name="help_url_previously_connected_devices" translatable="false"></string>
+    <string name="help_url_apps_and_notifications" translatable="false"></string>
+    <string name="help_url_audio_accessory_not_supported" translatable="false"></string>
+
+    <string name="help_url_audio_sharing" translatable="false"></string>
+
+    <string name="help_url_auto_brightness" translatable="false" />
+    <!-- Help URL, Adaptive sleep [DO NOT TRANSLATE] -->
+    <!-- Help URL, Previously connected bluetooth devices [DO NOT TRANSLATE] -->
+    <string name="help_url_auto_rotate_settings" translatable="false"></string>
+
+    <string name="help_url_autoclick" translatable="false"></string>
+    <string name="help_url_backup_reset" translatable="false"></string>
+    <string name="help_url_battery" translatable="false"></string>
+    <string name="help_url_battery_defender" translatable="false"></string>
+    <string name="help_url_battery_missing" translatable="false"></string>
+    <string name="help_url_bluetooth" translatable="false"></string>
+    <string name="help_url_caption" translatable="false"></string>
+    <string name="help_url_choose_lockscreen" translatable="false"></string>
+    <string name="help_url_color_correction" translatable="false"></string>
+    <string name="help_url_color_inversion" translatable="false"></string>
+    <string name="help_url_connected_devices" translatable="false"></string>
+    <string name="help_url_connected_devices_fast_pair_devices" translatable="false"></string>
+    <string name="help_url_dark_theme" translatable="false"></string>
+    <string name="help_url_dark_theme_link" translatable="false"></string>
+    <string name="help_url_data_saver" translatable="false"></string>
+    <string name="help_url_data_usage" translatable="false"></string>
+    <string name="help_url_development_memtag" translatable="false"></string>
+    <string name="help_url_dock_defender" translatable="false"></string>
+    <string name="help_url_double_tap_screen" translatable="false"></string>
+    <string name="help_url_dreams" translatable="false"></string>
+    <string name="help_url_encryption" translatable="false"></string>
+    <string name="help_url_external_display" translatable="false"></string>
+    <string name="help_url_face" translatable="false"></string>
+    <string name="help_url_fingerprint" translatable="false"></string>
+    <string name="help_url_flash_notifications" translatable="false"></string>
+    <string name="help_url_gestures" translatable="false"></string>
+    <string name="help_url_icc_lock" translatable="false"></string>
+
+    <string name="help_url_incompatible_charging" translatable="false"></string>
+    <string name="help_url_insecure_vpn" translatable="false"></string>
+    <string name="help_url_install_certificate" translatable="false"></string>
+    <string name="help_url_location_access" translatable="false"></string>
+    <string name="help_url_lockscreen" translatable="false"></string>
+    <string name="help_url_magnification" translatable="false"></string>
+    <string name="help_url_manage_storage" translatable="false"></string>
+
+    <string name="help_url_memtag" translatable="false"></string>
+    <string name="help_url_more_networks" translatable="false"></string>
+    <string name="help_url_network_dashboard" translatable="false"></string>
+    <string name="help_url_nfc_payment" translatable="false"></string>
+    <string name="help_url_night_display" translatable="false"></string>
+    <string name="help_url_pickup_gesture" translatable="false"></string>
+    <string name="help_url_privacy_dashboard" translatable="false"></string>
+
+    <string name="help_url_remote_display" translatable="false"></string>
+    <string name="help_url_screen_pinning" translatable="false"></string>
+    <string name="help_url_screen_saver" translatable="false"></string>
+    <string name="help_url_security" translatable="false"></string>
+    <string name="help_url_sound" translatable="false"></string>
+    <string name="help_url_storage_dashboard" translatable="false"></string>
+    <string name="help_url_system_dashboard" translatable="false"></string>
+    <string name="help_url_tether" translatable="false"></string>
+    <string name="help_url_timeout" translatable="false"></string>
+    <string name="help_url_trust_agent" translatable="false"></string>
+    <string name="help_url_unrestricted_data_access" translatable="false"></string>
+    <string name="help_url_upgrading" translatable="false"></string>
+    <string name="help_url_usage_access" translatable="false"></string>
+    <string name="help_url_usb_contaminant_detected" translatable="false"></string>
+
+    <string name="help_url_user_and_account_dashboard" translatable="false"></string>
+    <string name="help_url_users" translatable="false"></string>
+    <string name="help_url_vpn" translatable="false"></string>
+    <string name="help_url_wifi" translatable="false"></string>
+    <string name="help_url_wifi_p2p" translatable="false"></string>
+    <string name="help_url_wireless_charging" translatable="false"></string>
+    <string name="hidden_ssid_label" translatable="false">隐藏 SSID：</string>
+    <string name="ipaddr_label" translatable="false">IP 地址：</string>
+    <string name="keywords_memtag" translatable="false">MTE, Memory Tagging Extension</string>
+
+    <string name="link_locale_picker_footer_learn_more" translatable="false">https://support.google.com/android?p=per_language_app_settings</string>
+
+    <string name="location_settings_footer_learn_more_link" translatable="false">
+        https://support.google.com/android/answer/3467281
+    </string>
+    <string name="macaddr_label" translatable="false">MAC 地址：</string>
+    <string name="modifier_keys_alt" translatable="false">Alt</string>
+
+    <string name="modifier_keys_caps_lock" translatable="false">Caps lock</string>
+    <string name="modifier_keys_ctrl" translatable="false">Ctrl</string>
+    <string name="modifier_keys_meta" translatable="false">Action key</string>
+    <string name="network_1x" translatable="false">1x</string>
+    <string name="network_2G" translatable="false">2G</string>
+    <string name="network_3G" translatable="false">3G</string>
+    <string name="network_4G_pure" translatable="false">4G</string>
+    <string name="network_global" translatable="false">Global</string>
+    <string name="network_lte_pure" translatable="false">LTE</string>
+    <string name="network_state_label" translatable="false">网络状态：</string>
+    <string name="network_world_mode_cdma_lte" translatable="false">LTE / CDMA</string>
+    <string name="network_world_mode_gsm_lte" translatable="false">LTE / GSM / UMTS</string>
+
+    <string name="networkid_label" translatable="false">网络 ID：</string>
+    <string name="notification_conversation_summary" translatable="false">"<xliff:g id="parent_category_name">%1$s</xliff:g> • <xliff:g id="parent_category_group_name">%2$s</xliff:g>"</string>
+
+    <string name="notification_header_divider_symbol_with_spaces" translatable="false">" • "</string>
+
+    <string name="oem_preferred_feedback_reporter" translatable="false"></string>
+
+    <string name="platform_compat_selected_app_summary" translatable="false"><xliff:g id="app_name" example="com.google.android.chrome">%1$s</xliff:g> targetSdkVersion <xliff:g id="number" example="29">%2$d</xliff:g></string>
+    <string name="platform_compat_target_sdk_title">对 targetSdkVersion >= <xliff:g id="number" example="29">%d</xliff:g> 启用</string>
+    <string name="power_usage_enhanced_debug" translatable="false">剩余 <xliff:g id="time">%1$s</xliff:g>（新 ML 估算）</string>
+    <string name="power_usage_old_debug" translatable="false">剩余 <xliff:g id="time">%1$s</xliff:g>（旧估算）</string>
+
+    <string name="preference_key_auto_brightness" translatable="false">auto_brightness_entry</string>
+    <string name="preference_key_brightness_level" translatable="false">brightness</string>
+    <string name="private_space_learn_more_url" translatable="false">https://support.google.com/android?p=private_space</string>
+    <string name="regional_pref_footer_learn_more_link" translatable="false">https://support.google.com/android?p=regional_preferences</string>
+    <string name="reset_telephony_stack_content_provider_authority" translatable="false"></string>
+
+    <string name="rssi_label" translatable="false">RSSI：</string>
+    <string name="rx_link_speed_label" translatable="false">接收链路速率：</string>
+    <string name="scan_list_label" translatable="false">扫描结果：</string>
+
+    <string name="security_settings_face_footer_learn_more_url" translatable="false"></string>
+    <string name="security_settings_require_screen_on_to_auth_key" translatable="false">security_settings_require_screen_on_to_auth</string>
+    <string name="security_settings_screen_off_unlock_udfps_key" translatable="false">security_settings_screen_off_unlock_udfps</string>
+    <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
+    <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
+    <string name="software_cursor_trigger_hints_enabled_title" translatable="false">手势检测区域提示</string>
+    <string name="software_cursor_trigger_keyboard_shift_enabled_title" translatable="false">键盘上方 Shift 手势检测区域</string>
+
+    <string name="ssid_label" translatable="false">SSID:</string>
+    <string name="status_iccid">ICCID</string>
+    <string name="summary_placeholder" translatable="false">&#160;</string>
+    <string name="summary_two_lines_placeholder" translatable="false">&#160;\n&#160;</string>
+
+    <string name="supervision_pin_learn_more_link" translatable="false">https://support.google.com/android?p=device_supervision_pin</string>
+    <string name="supervision_unavailable_learn_more_link" translatable="false">https://support.google.com/android?p=device_supervision_unavailable</string>
+    <string name="supervision_web_content_filters_learn_more_link" translatable="false">https://support.google.com/android?p=device_supervision_web_filters</string>
+    <string name="supplicant_state_label" translatable="false">Supplicant 状态：</string>
+    <string name="testing_sim_toolkit">SIM 工具包</string>
+
+    <string name="testing_wifi_info" translatable="false">Wi-Fi 信息</string>
+    <string name="thread_network_settings_learn_more_link" translatable="false">https://support.google.com/android?p=thread_toggle</string>
+
+    <string name="time_zone_auto_stub" translatable="false">选择时区</string>
+
+    <string name="trackpad_gestures_disabled_footer_text" translatable="false">由于触控板手势已关闭，部分设置不可用。你可以在“指针和触控板辅助功能 > 使用触控板手势”中重新开启。</string>
+    <string name="tx_link_speed_label" translatable="false">发送链路速率：</string>
+    <string name="wifi_api_test" translatable="false">Wi-Fi API</string>
+    <string name="wifi_calling_roaming_mode_summary"><xliff:g id="wfc_roaming_preference" example="Wi-Fi">%1$s</xliff:g></string>
+    <string name="wifi_config_info" translatable="false">Wi-Fi 配置</string>
+    <string name="wifi_display_autonomous_go" translatable="false">启用 Autonomous GO</string>
+    <string name="wifi_display_certification_heading" translatable="false">认证</string>
+    <string name="wifi_display_listen_channel" translatable="false">监听信道</string>
+    <string name="wifi_display_listen_mode" translatable="false">启用监听模式</string>
+    <string name="wifi_display_operating_channel" translatable="false">工作信道</string>
+    <string name="wifi_display_pause" translatable="false">暂停</string>
+    <string name="wifi_display_resume" translatable="false">继续</string>
+    <string name="wifi_display_session_info" translatable="false">会话信息</string>
+    <string name="wifi_display_wps_config" translatable="false">WPS 配置</string>
+    <string name="wifi_state_disabled" translatable="false">已禁用</string>
+    <string name="wifi_state_disabling" translatable="false">正在禁用</string>
+    <string name="wifi_state_enabled" translatable="false">已启用</string>
+    <string name="wifi_state_enabling" translatable="false">正在启用</string>
+    <string name="wifi_state_label" translatable="false">Wi-Fi 状态：</string>
+    <string name="wifi_state_unknown" translatable="false">未知</string>
+
+    <string name="wifi_status_test" translatable="false">Wi-Fi 状态</string>
+    <string name="wifi_update" translatable="false">刷新统计</string>
+    <string name="zen_mode_calls_summary_one"><xliff:g id="caller type" example="contacts">%1$s</xliff:g></string>
+    <string name="zen_mode_format_status_and_trigger" translatable="false"><xliff:g id="current_status" example="ON">%1$s</xliff:g> • <xliff:g id="trigger_description" example="Mon-Fri, 23:00-7:00">%2$s</xliff:g></string>
+
+
+
+
+    <!-- Added missing string-array resources for zh-rCN parity -->
+    <string-array name="wifi_calling_mode_choices" translatable="false">
+            <item>@*android:string/wfc_mode_wifi_preferred_summary</item>
+            <item>@*android:string/wfc_mode_cellular_preferred_summary</item>
+            <item>@*android:string/wfc_mode_wifi_only_summary</item>
+        </string-array>
+        
+
+    <string-array name="wifi_calling_mode_values" translatable="false">
+            <item>"2"</item>
+            <item>"1"</item>
+            <item>"0"</item>
+        </string-array>
+        
+
+    <string-array name="wifi_calling_mode_choices_without_wifi_only" translatable="false">
+            <item>@*android:string/wfc_mode_wifi_preferred_summary</item>
+            <item>@*android:string/wfc_mode_cellular_preferred_summary</item>
+        </string-array>
+        
+
+    <string-array name="wifi_calling_mode_values_without_wifi_only" translatable="false">
+            <item>"2"</item>
+            <item>"1"</item>
+        </string-array>
+    
+        
+        
+
+    <string-array name="graphics_driver_all_apps_preference_values">
+            <item>@string/graphics_driver_app_preference_default</item>
+            <item>@string/graphics_driver_app_preference_production_driver</item>
+            <item>@string/graphics_driver_app_preference_prerelease_driver</item>
+        </string-array>
+        
+        
+
+    <string-array name="graphics_driver_app_preference_values">
+            <item>@string/graphics_driver_app_preference_default</item>
+            <item>@string/graphics_driver_app_preference_prerelease_driver</item>
+            <item>@string/graphics_driver_app_preference_production_driver</item>
+            <item>@string/graphics_driver_app_preference_system</item>
+        </string-array>
+    
+        
+        
+
+    <string-array name="face_education_illustration" translatable="false">
+            <item>.surfaceContainer:@sud_system_surface_container_light</item>
+            <item>.primary:@sud_system_primary_light</item>
+            <item>.primaryContainer:@sud_system_primary_container_light</item>
+            <item>.outline:@sud_system_outline_light</item>
+            <item>.onSecondaryContainer:@sud_system_on_secondary_container_light</item>
+            <item>.tertiary:@sud_system_tertiary_light</item>
+            <item>.inversePrimary:@sud_system_primary_inverse_light</item>
+        </string-array>
+    
+        
+        
+
 </resources>
